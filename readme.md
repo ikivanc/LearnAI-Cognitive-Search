@@ -5,7 +5,6 @@
 Azure Search adds data extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making previously unsearchable or unstructured content more searchable. Information created by Cognitive Search Skills, such as entity recognition or image analysis, gets added to an index in Azure Search.
 This one day training will focus on hands-on activities that develop proficiency with Cognitive Search, an Azure Search AI-oriented capability announced at [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), the [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If you are not at that skill level, we have prerequisite materials below that you **need** to complete prior to beginning this training.
 
-## Goals
 
 We will focus on hands-on activities to learn how to create a Cognitive Search solution for all types of business documents. The documents include pdfs, docs, ppts and images, as well as documents with multiple languages.
 
@@ -17,13 +16,14 @@ Since this is an AI training on top of Microsoft Azure Services, before we start
 * [Hands on WorkShop for Cognitive Search](./readmeWorkshop.md)
 
 
-## Custom Skill for a Custom List in Azure Cognitive Search
+## Custom Skill for a Custom List Generator in Azure Cognitive Search
 Let's assume you have a custom list of products and terms and you would like to search if these items are exists in the documents. If yes, you would like to return these values in a custom list as output. In below steps you can learn how to add a custom list pipeline to above workshop:
 
 1. Here is a ready prepared custom search pipeline in Postman in 5 steps. To define data source, creating skillset, creating an index, creating and indexer and verifying content. You can download export of cognitiveSearch from [CognitiveSearch Postman export](postmanrequests\CognitiveSearch.postman_collection.json)
 
 1. Here are the steps for Custom Skills Pipeline in Postman
-![](screenshots/Postman.png)
+
+    ![](screenshots/Postman.png)
 
 1. Also Azure Function calls are added for custom skill. 
 ![](screenshots/Postman1.png)
