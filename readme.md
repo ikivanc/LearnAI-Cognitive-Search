@@ -1,6 +1,6 @@
 # Building an Enterprise Cognitive Search Solution
 
-* **This training is forked from [Learn AI Content](https://github.com/ikivanc/LearnAI-Cognitive-Search) and modified with a new scenario for Custom List creation scenario, this part is added in this repo.**
+* **This training is forked from [Learn AI Content](https://github.com/Azure/LearnAI-Cognitive-Search) and modified with a new scenario for Custom List creation scenario, this part is added in this repo.**
 
 Azure Search adds data extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making previously unsearchable or unstructured content more searchable. Information created by Cognitive Search Skills, such as entity recognition or image analysis, gets added to an index in Azure Search.
 This one day training will focus on hands-on activities that develop proficiency with Cognitive Search, an Azure Search AI-oriented capability announced at [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), the [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If you are not at that skill level, we have prerequisite materials below that you **need** to complete prior to beginning this training.
