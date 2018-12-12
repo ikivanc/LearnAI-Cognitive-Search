@@ -19,7 +19,7 @@ Since this is an AI training on top of Microsoft Azure Services, before we start
 ## Custom Skill for a Custom List Generator in Azure Cognitive Search
 Let's assume you have a custom list of products and terms and you would like to search if these items are exists in the documents. If yes, you would like to return these values in a custom list as output. In below steps you can learn how to add a custom list pipeline to above workshop:
 
-1. Here is a ready prepared custom search pipeline in Postman in 5 steps. To define data source, creating skillset, creating an index, creating and indexer and verifying content. You can download export of cognitiveSearch from [CognitiveSearch Postman export](postmanrequests\CognitiveSearch.postman_collection.json)
+1. Here is a ready prepared custom search pipeline in Postman in 5 steps. To define data source, creating skillset, creating an index, creating and indexer and verifying content. You can download export of cognitiveSearch from [CognitiveSearch Postman export](postmanrequests/CognitiveSearch.postman_collection.json)
 
 1. Here are the steps for Custom Skills Pipeline in Postman
 
@@ -36,7 +36,7 @@ Let's assume you have a custom list of products and terms and you would like to 
 
     List<string> techTerms = new List<string> { "CRM", "More Personal Computing", "MPC", "AI", "Artificial Intelligence", "Machine Learning", "Deep Learning" };
     ```
-    you can check full C# code from [FunctionExtract.cs](customskillfunction\FunctionExtract.cs)
+    you can check full C# code from [FunctionExtract.cs](customskillfunction/FunctionExtract.cs)
 
     In postman request function body input will be like:
     ```json
